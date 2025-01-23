@@ -1,9 +1,18 @@
+import Home from "./components/home";
+import NavBar from "./components/navBar";
+import Plans from "./components/plans";
+import Schedules from "./components/schedules";
+import Structure from "./components/structure";
+
 function App() {
     return (
-        <div>
-            <h1 className="">My Gym</h1>
-            <p>Welcome to My Gym! We are a full-service gym with a variety of equipment and classes to help you reach your fitness goals. Whether you are looking to lose weight, build muscle, or improve your overall health, we have everything you need to get started. Our friendly and knowledgeable staff are here to help you every step of the way, so come in and see us today!</p>
-        </div>
+        <body className="bg-background h-screen">
+            <NavBar />
+            <Home />
+            <Structure />
+            <Schedules />
+            <Plans />
+        </body>
     );
 }
 
