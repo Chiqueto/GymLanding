@@ -1,3 +1,4 @@
+import Contact from "./components/contact";
 import Home from "./components/home";
 import NavBar from "./components/navBar";
 import Plans from "./components/plans";
@@ -12,6 +13,7 @@ function App() {
             <Structure />
             <Schedules />
             <Plans />
+            <Contact />
         </body>
     );
 }
