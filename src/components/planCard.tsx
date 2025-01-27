@@ -10,12 +10,12 @@ interface PlanCardProps {
 }
 
 const cardVariants = tv({
-    base: "border rounded-2xl p-10 mt-10 font-impact font-bold w-96",
+    base: "border rounded-2xl p-10 mt-10 font-impact font-bold md:w-96 w-80",
     variants: {
         color: {
             olympia: "border-main-700",
-            pro: "border-secondary-500 mt-24",
-            starter: "border-zinc-50 mt-48"
+            pro: "border-secondary-500 md:mt-24",
+            starter: "border-zinc-50 md:mt-48"
         }
     }
 })
