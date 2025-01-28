@@ -28,7 +28,7 @@ function Plans() {
 
             </Carousel >
 
-            <h1 className="mt-20 font-impact font-bold md:text-6xl text-5xl text-zinc-50 px-48 text-center [text-shadow:_0_4px_12px_rgb(20_145_227_/_100%)] stroke-secondary-500">Também aceitamos</h1>
+            <h1 className="mt-20 font-impact font-bold md:text-6xl text-5xl text-zinc-50 mx-48 text-center [text-shadow:_0_4px_12px_rgb(20_145_227_/_100%)] stroke-secondary-500">Também aceitamos</h1>
 
             <div className="border border-zinc-50 rounded-2xl p-10 mx-10 mt-10 font-impact font-bold md:px-40 px-14">
                 <h2 className="md:text-4xl text-2xl text-center mb-5 text-zinc-50 stroke-secondary-500 ">Diária - R$ 15,00 </h2>
