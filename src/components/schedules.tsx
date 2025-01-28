@@ -2,7 +2,7 @@ import ScheduleCard from "./scheduleCard";
 
 function Schedules() {
     return (
-        <section className="mt-20">
+        <section id="schedules" className="mt-20">
             <div className="flex flex-row justify-center items-center gap-5 md:ml-20 mx-20 ">
                 <img src="/Line 1.svg" alt="" className="mt-6 md:max-w-[100%] max-w-[30%]" />
                 <h1 className="text-center font-neon md:text-9xl text-6xl text-main-700  [text-shadow:_4px_12px_24px_rgb(255_0_0_/_80%)]  ">Estamos abertos</h1>

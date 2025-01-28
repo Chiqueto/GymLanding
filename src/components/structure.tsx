@@ -26,7 +26,7 @@ const carouselItems = [
 
 function Structure() {
     return (
-        <section className="flex justify-center md:mt-20 mt-10 md:mx-20 mx-10">
+        <section id="structure" className="flex justify-center md:mt-20 mt-10 md:mx-20 mx-10">
             <Carousel opts={{ loop: true }} className="w-full">
                 <CarouselContent>
                     {carouselItems.map((item, index) => (
