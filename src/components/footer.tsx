@@ -19,7 +19,7 @@ function Footer() {
                 <li><a href="#contact" className="hover:text-main-500 hover:underline">Contato</a></li>
             </ul>
 
-            <p className='text-zinc-400 text-sm text-center mt-4'>Copyrigth &copy; 2025, Feito por <span className='font-impact italic underline'>Luís Felipe Chiqueto</span> </p>
+            <p className='text-zinc-400 text-center mt-4 md:text-sm text-xs'>Copyrigth &copy; 2025, Feito por <span className='font-impact italic underline'>Luís Felipe Chiqueto</span> </p>
 
         </footer>
     );
