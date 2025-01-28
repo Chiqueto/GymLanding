@@ -1,4 +1,5 @@
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 import Home from "./components/home";
 import NavBar from "./components/navBar";
 import Plans from "./components/plans";
@@ -14,6 +15,7 @@ function App() {
             <Schedules />
             <Plans />
             <Contact />
+            <Footer />
         </body>
     );
 }
