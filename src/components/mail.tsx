@@ -1,11 +1,11 @@
-import { Input } from "./ui/input";
-import { Label } from "./ui/label";
 
-function Mail() {
+
+function ScheduleClass() {
     return (
-        <section className="text-zinc-50 mx-10 mt-4">
-            <h1 className="text-2xl font-bold">Agende uma aula experimental!</h1>
-            <div className="bg-zinc-800 border border-secondary-500 rounded-2xl p-3 mt-2 text-sm">
+        <section className="text-zinc-50 mx-10 md:mx-40 mt-6 text-center">
+            <h1 className="text-2xl md:text-4xl font-bold mb-2">Agende uma aula experimental!</h1>
+            <p className="text-lg"><a href="https://wa.me/5516999686044?text=Olá! Gostaria de agendar uma aula experimental..." target='_blank' className="text-main-500 underline hover:text-main-600 hover:font-bold">Clique Aqui</a> para entrar em contato e agendar sua aula experimental!</p>
+            {/* <div className="bg-zinc-800 border border-secondary-500 rounded-2xl p-3 mt-2 text-sm">
                 <form action="" className="flex flex-col gap-4">
                     <div className="grid grid-cols-9 gap-2">
                         <div className="col-span-5 text-sm">
@@ -25,9 +25,9 @@ function Mail() {
                     </div>
                 </form>
 
-            </div>
+            </div> */}
         </section>
     );
 }
 
-export default Mail;
+export default ScheduleClass;

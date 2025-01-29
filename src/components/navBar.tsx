@@ -43,7 +43,7 @@ export default function Navbar() {
                                 <a href="#schedules" className="hover:text-main-500 hover:underline">Horários</a>
                                 <a href="#plans" className="hover:text-main-500 hover:underline">Planos</a>
                                 <a href="#contact" className="hover:text-main-500 hover:underline">Contato</a>
-                                <a href="#" className="hover:text-main-500 hover:underline">Agende uma aula</a>
+                                <a href="https://wa.me/5516999686044?text=Olá! Gostaria de agendar uma aula experimental..." className="hover:text-main-500 hover:underline">Agende uma aula</a>
                             </nav>
                         </SheetDescription>
                     </SheetHeader>
@@ -57,7 +57,7 @@ export default function Navbar() {
                 <a href="#schedules" className="hover:text-main-500 hover:underline">Horários</a>
                 <a href="#plans" className="hover:text-main-500 hover:underline">Planos</a>
                 <a href="#contact" className="hover:text-main-500 hover:underline">Contato</a>
-                <a href="#" className="hover:text-main-500 hover:underline">Agende uma aula</a>
+                <a href="https://wa.me/5516999686044?text=Olá! Gostaria de agendar uma aula experimental..." className="hover:text-main-500 hover:underline" target="_blank">Agende uma aula</a>
             </nav>
         </div>
     );
